@@ -1,0 +1,64 @@
+.signin{
+    border: 1px solid white;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2rem;
+    text-align: center;
+   padding: 1rem 0;
+}
+
+.signin h1{
+    font-size: 4rem;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.signin .inputs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.signin .inputs .email input{
+    padding: 0.4rem 0.5rem;
+    border-radius: 5px;
+    border: none;
+    width: 60%;
+    font-size: 1rem;
+}
+
+.signin .inputs .password input{
+    padding: 0.4rem 0.5rem;
+    border-radius: 5px;
+    border: none;
+    width: 60%;
+    font-size: 1rem;
+}
+
+.signin .button{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    row-gap: 0.5rem;
+}
+
+.signin .button .log{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+.signin .button .sign{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
